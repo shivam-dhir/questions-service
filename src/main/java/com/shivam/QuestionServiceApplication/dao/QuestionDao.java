@@ -1,7 +1,7 @@
-package com.telusko.questionservice.dao;
+package com.shivam.QuestionServiceApplication.dao;
 
 
-import com.telusko.questionservice.model.Question;
+import com.shivam.QuestionServiceApplication.model.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,10 +1,10 @@
-package com.telusko.questionservice.service;
+package com.shivam.QuestionServiceApplication.service;
 
 
-import com.telusko.questionservice.dao.QuestionDao;
-import com.telusko.questionservice.model.Question;
-import com.telusko.questionservice.model.QuestionWrapper;
-import com.telusko.questionservice.model.Response;
+import com.shivam.QuestionServiceApplication.dao.QuestionDao;
+import com.shivam.QuestionServiceApplication.model.Question;
+import com.shivam.QuestionServiceApplication.model.QuestionWrapper;
+import com.shivam.QuestionServiceApplication.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
