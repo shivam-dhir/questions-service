@@ -1,10 +1,10 @@
-package com.telusko.questionservice.controller;
+package com.shivam.QuestionServiceApplication.controller;
 
 
-import com.telusko.questionservice.model.Question;
-import com.telusko.questionservice.model.QuestionWrapper;
-import com.telusko.questionservice.model.Response;
-import com.telusko.questionservice.service.QuestionService;
+import com.shivam.QuestionServiceApplication.model.Question;
+import com.shivam.QuestionServiceApplication.model.QuestionWrapper;
+import com.shivam.QuestionServiceApplication.model.Response;
+import com.shivam.QuestionServiceApplication.service.QuestionService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -55,10 +55,5 @@ public class QuestionController {
     {
         return questionService.getScore(responses);
     }
-
-
-    // generate
-    // getQuestions (questionid)
-    // getScore
 
 }
